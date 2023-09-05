@@ -11,11 +11,9 @@ def find_numbers(S, P):
             return x, y
     return None, None
 
-# Ввод суммы и произведения от Пети
 S = int(input("Введите сумму чисел S: "))
 P = int(input("Введите произведение чисел P: "))
 
-# Попытка найти числа X и Y
 X, Y = find_numbers(S, P)
 
 if X is None:
